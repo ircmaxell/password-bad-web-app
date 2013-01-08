@@ -1,8 +1,15 @@
 {
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
     "require": {
         "ircmaxell/password-compat": "dev-master",
         "silex/silex": "1.0.*",
-        "twig/twig": ">=1.8,<2.0-dev"
+        "twig/twig": ">=1.8,<2.0-dev",
+        "zendframework/zend-crypt": "dev-master"
     },
     "minimum-stability": "dev"
 }
