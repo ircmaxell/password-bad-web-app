@@ -68,6 +68,8 @@ $app->get('/sqli', function() use ($app, $posts, $users) {
     }
     return $app['twig']->render('list.twig', array( 
         'title' => 'Injected!!!',
+        'message' => 'Injected!!!',
+        'error' => true,
         'posts' => $tmp 
     ));
 });
@@ -97,6 +99,9 @@ $app->post('/login', function() use ($app, $users) {
     $password = empty($_POST['password']) ? '' : $_POST['password'];
     
     $valid = false;
+    if (login($username, $password)) {
+        $value = true;
+    }
     foreach ($users as $user) {
         if ($user['name'] == $username) {
             if (verifyPassword($user['password'], $password)) {
@@ -137,7 +142,7 @@ $app->post('/register', function() use ($app, $users) {
     if ($password != $password2) {
         return $app->redirect('/register?message=match');
     }
-    if (!isUserNameAvailable($username)) {
+    if (findUserByName($username)) {
         return $app->redirect('/register?message=taken');
     }
     $user = array(
@@ -145,6 +150,7 @@ $app->post('/register', function() use ($app, $users) {
         'password' => createPassword($password),
     );
     writeUser($user);
+    saveUsers();
     return $app->redirect('/?message=register');
 });
 
