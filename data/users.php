@@ -3,30 +3,30 @@
   array (
     'id' => 1,
     'name' => 'foo',
-    'password' => 'd9d48904a20e0e856492678d6e7592df:XODp6e+mU+31qfZUuhu0EPayHGwMEzaORZyps9ONdiQYPz6iDjfYog==',
+    'password' => '$2y$10$eb943fc3ad2d88b967030u2p2VAMTNU2Y9m0aIbvQ.YD/1IFozEAm',
   ),
   1 => 
   array (
     'id' => 2,
     'name' => 'bar',
-    'password' => '2e38cddf1d6b9967ab091c55cba38b69:4DyPphnMzAwL7hTmkxmgB0wMQfYWjOZ/+JwogcNZvxS0HufZ++l7lA==',
+    'password' => '$2y$10$1b54db67e9527d3549194OnbHhLODSb8K6s6Taw.yt8L3sCrhWaVi',
   ),
   2 => 
   array (
     'id' => 3,
     'name' => 'baz',
-    'password' => '20f22c1eb7fa86c117470d3982d3d1f0:FdENnojv3vhyE8QDAwdFTJRnOU0W9IQQvM1/T56gdhGJd1NLZb8Nzw==',
+    'password' => '$2y$10$974ff147b45c746097d85eZRXSvAUsC6aFCXzNvMo4glTjxvQtcC2',
   ),
   3 => 
   array (
     'id' => 4,
     'name' => 'me',
-    'password' => '9191eb03676cf7748d9a22a420120cff:qJXe2LG9F6DILGZj2dq3n2AFPk7avR5YWlc1mlMSWJEf4IYH7JoARA==',
+    'password' => '$2y$10$ac80742c44c52f1224271ucQw/rrAt/lX79V.ACPsrVs2UwgsydHG',
   ),
   4 => 
   array (
     'name' => 'me2',
-    'password' => 'b17fa4f4b0b81e0fbf0341fb9469b959:UdexpudWvsa9v7P6fAs24HXtxWNllkqyk5QwnsVJwGt0rGLeXxsfTQ==',
+    'password' => '$2y$10$a8faac678619d5e327817ey0G0rs7VRUMwOjs2nzF9fSVy6jcv6Ma',
     'id' => 5,
   ),
 );
