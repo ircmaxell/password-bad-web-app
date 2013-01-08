@@ -1,9 +1,9 @@
 <?php
 
 function createPassword($password) {
-    return $password;
+    return md5($password);
 }
 
 function verifyPassword($hash, $password) {
-    return $password == $hash;
+    return md5($password) == $hash;
 }
