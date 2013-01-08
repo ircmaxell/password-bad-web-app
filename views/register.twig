@@ -2,13 +2,14 @@
 
 {% import 'forms.twig' as forms %}
 
-{% block title %}Login{% endblock %}
+{% block title %}Register{% endblock %}
 
 {% block content %}
-    <h1>Login</h1>
+    <h1>Register</h1>
     <form method="post">
         {{ forms.input("Username", "username") }}
         {{ forms.input("Password", "password", "", "password") }}
-        {{ forms.submit("Login") }}
+        {{ forms.input("Re-Type", "password2", "", "password") }}
+        {{ forms.submit("Register") }}
     </form>
 {% endblock %}

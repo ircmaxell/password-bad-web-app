@@ -1,0 +1,12 @@
+{% macro input(desc, name, value, type) %}
+    <div class="field">
+        <label for="{{ name }}">{{ desc }}:</label>
+        <input type="{{ type|default('text') }}" id="{{ name }}" name="{{ name }}" value="{{ value|e }}"/>
+    </div>
+{% endmacro %}
+
+{% macro submit(name) %}
+    <div class="submit">
+        <input type="submit" name="{{ name }}" value="{{ name }}" />
+    </div>
+{% endmacro %}
