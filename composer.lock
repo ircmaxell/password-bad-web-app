@@ -1,6 +1,48 @@
 {
-    "hash": "6335696052ae28434772e39adec20bef",
+    "hash": "aafc8b42c33eb8a817222fd1dca72645",
     "packages": [
+        {
+            "name": "ircmaxell/password-compat",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/password_compat.git",
+                "reference": "2a7b6355d27c65f7e0de1fbbc0016b5b6cd8226b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/ircmaxell/password_compat/archive/2a7b6355d27c65f7e0de1fbbc0016b5b6cd8226b.zip",
+                "reference": "2a7b6355d27c65f7e0de1fbbc0016b5b6cd8226b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.7"
+            },
+            "time": "1354628732",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "lib/password.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@php.net",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
+            "homepage": "https://github.com/ircmaxell/password_compat",
+            "keywords": [
+                "password",
+                "hashing"
+            ]
+        },
         {
             "name": "pimple/pimple",
             "version": "dev-master",
@@ -187,18 +229,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation",
-                "reference": "f800e916d8e431895ee1bb65bef6b67d5eea7956"
+                "reference": "d256f0615addf624f62256fd3fd012f8d0271891"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/HttpFoundation/archive/f800e916d8e431895ee1bb65bef6b67d5eea7956.zip",
-                "reference": "f800e916d8e431895ee1bb65bef6b67d5eea7956",
+                "url": "https://github.com/symfony/HttpFoundation/archive/d256f0615addf624f62256fd3fd012f8d0271891.zip",
+                "reference": "d256f0615addf624f62256fd3fd012f8d0271891",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "1357573853",
+            "time": "1357669061",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -237,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel",
-                "reference": "6e8e03641edeb6401bba6dfbe2b7608e116fd3fb"
+                "reference": "a7b42dafe6d68a62ef2afa55195313d6d8bf5c98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/HttpKernel/archive/6e8e03641edeb6401bba6dfbe2b7608e116fd3fb.zip",
-                "reference": "6e8e03641edeb6401bba6dfbe2b7608e116fd3fb",
+                "url": "https://github.com/symfony/HttpKernel/archive/a7b42dafe6d68a62ef2afa55195313d6d8bf5c98.zip",
+                "reference": "a7b42dafe6d68a62ef2afa55195313d6d8bf5c98",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +311,7 @@
                 "symfony/dependency-injection": "2.2.*",
                 "symfony/finder": "2.2.*"
             },
-            "time": "1357408360",
+            "time": "1357671325",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -411,7 +453,7 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ]
+    "stability-flags": {
+        "ircmaxell/password-compat": 20
+    }
 }

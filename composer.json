@@ -1,5 +1,6 @@
 {
     "require": {
+        "ircmaxell/password-compat": "dev-master",
         "silex/silex": "1.0.*",
         "twig/twig": ">=1.8,<2.0-dev"
     },
