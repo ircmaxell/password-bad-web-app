@@ -1,0 +1,14 @@
+{% extends "template.twig" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <ul class="posts">
+    {% for post in posts %}
+        <li>
+            <h3><a href="/posts/{{post.id}}">{{post.title}}</a></h3>
+            <p>{{ post.body|raw }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}

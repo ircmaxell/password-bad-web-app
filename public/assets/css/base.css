@@ -1,0 +1,132 @@
+
+body {
+    background-color: #e0e0e0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+#header {
+    width: 600px;
+    background-color: #f2f2f2;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border-spacing: 0px;
+}
+
+#message {
+    width: 600px;
+    background-color: #f2f2f2;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+    text-align: center;
+    padding: 5px 0px;
+    margin-top: 5px;
+
+}
+
+#message h2 {
+    -webkit-margin-before: 0.3em;
+    -webkit-margin-after: 0.3em;
+}
+
+#footer {
+    width: 600px;
+    background-color: #f2f2f2;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+    text-align: center;
+    padding: 5px 0px;
+    margin-top: 5px;
+}
+
+#header h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#header ul {
+    list-style-type: none;
+    border-top: 1px solid #202020;
+    height: 12px;
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+    top: -15px;
+    position: relative;
+}
+
+#header ul li {
+    position: relative;
+    display: inline;
+    float: left;
+    border-spacing: 0px;
+}
+
+#header ul li a {
+    display: block;
+    background-color: #e9e9e9;
+    border-right: 1px solid #202020;
+    border-spacing: 0px;
+    padding: 4px 12px;
+    border-left-width: 0;
+    text-decoration: none;
+    color: black;
+}
+
+#content {
+    width: 570px;
+    background-color: #f2f2f2;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+ul.posts {
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul.posts li {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+ul.posts h3 {
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+form label {
+    display: inline-block;
+    width: 90px;
+}
+
+div.field, div.submit {
+    margin: 4px;
+    padding: 4px;
+}
+
+div.error {
+    color: red;
+    padding: 10px;
+    font-size: 18px;
+}
+

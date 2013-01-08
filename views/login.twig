@@ -1,0 +1,20 @@
+{% extends "template.twig" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    <h1>Login</h1>
+    <form method="post">
+        <div class="field">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" />
+        </div>
+        <div class="field">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" />
+        </div>
+        <div class="submit">
+            <input type="submit" name="Login" value="Login" />
+        </div>
+    </form>
+{% endblock %}
