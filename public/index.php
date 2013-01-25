@@ -75,6 +75,15 @@ $app->get('/sqli', function() use ($app, $posts, $users) {
 });
 
 /**
+ * A dummy route for simulating code injectin
+ * that reads a source code file
+ * (a sensitive one in this case)
+ */
+$app->get('/codeinject', function() use ($app) {
+    return file_get_contents('../lib/password.php');
+});
+
+/**
  * The authentication routes!
  *
  * The GET login route renders the form
