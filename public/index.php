@@ -74,6 +74,10 @@ $app->get('/sqli', function() use ($app, $posts, $users) {
     ));
 });
 
+$app->get('/codeinject', function() use ($app) {
+    return file_get_contents('../lib/password.php');
+});
+
 /**
  * The authentication routes!
  *
