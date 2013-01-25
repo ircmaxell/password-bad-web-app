@@ -4,6 +4,8 @@ Password Hashing Bad Web Application
 Note, this is a **BAD WEB APP**. Meaning that it has known vulnerabilities in it for the purpose of education.
 DO NOT USE THIS CODE, OR ANY DERIVATION OF IT FOR ANYTHING OTHER THAN EDUCATION.
 
+This repository goes along with the talk that I did at PHP Benelux 2013: [Password Storage and Attacking in PHP](http://www.slideshare.net/ircmaxell/password-storage-and-attacking-in-php)
+
 ## Installation
 
 Checkout the repo
